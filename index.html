@@ -1,62 +1,65 @@
 <!DOCTYPE html>
-<html>
+<html >
 
 <head>
-    <title> Html-Me-Something</title>
+    <title>Html-Me-Something</title>
+    <link rel="stylesheet" type="text/css" href="styles.css"></link>
+
 
 </head>
 
 <body>
     <header>
-        <h1> Summer 2016</h1>
+        <h1 class="h1"> Summer 2016</h1>
         <nav>
             <ul>
                 <li>
-                    <a href="#bull shoals"> Bull Shoals Lake</a>
+                    <a style="float: left; padding-left: 400px"  href="#bull shoals"> Bull Shoals Lake</a>
                 </li>
 
                 <li>
-                    <a href="#4th of july"> July 4th</a>
+                    <a style="float: right; padding-right: 500px" href="#4th of july"> July 4th</a>
                 </li>
             </ul>
         </nav>
     </header>
 
     <main>
-        <article>
+        <article class="article_bg">
             <section>
                 <a name="bull shoals"></a>
                 <h2>Bull Shoals Lake</h2>
                 <p>
                     Yearly family trip to Bull Shoals Lake. Reese and Drew learn to ski! Fishing, tubing and boating fun!!
                 </p>
-                <figure>
-                    <img src="C:\Users\JDisko\lc101\html-me-something\Pictures\Family at the lake 2016.jpg" alt="Family Lake Picture 2016" width ="200" height="140">
-                    <br>
-                        <img src="C:\Users\JDisko\lc101\html-me-something\Pictures\Reese tubing 2016.jpg" alt="Reese Tubing" width ="160" height="140">
-                    <br>
-                        <img src="C:\Users\JDisko\lc101\html-me-something\Pictures\Drew skiing 2016.jpg" alt="Drew Skiing" width ="160" height="140">
-                    <br>
-                        <img src="C:\Users\JDisko\lc101\html-me-something\Pictures\Reese skiing 2016.jpg" alt="Reese Skiing" width ="180" height="140">
+                <figure class="container" >
+                    <img class="landscape" src="C:\Users\JDisko\lc101\html-me-something\Pictures\Family at the lake 2016.jpg" alt="Family Lake Picture 2016">
+
+                        <img class="portrait" src="C:\Users\JDisko\lc101\html-me-something\Pictures\Reese tubing 2016.jpg" alt="Reese Tubing">
+
+                        <img class="portrait" src="C:\Users\JDisko\lc101\html-me-something\Pictures\Drew skiing 2016.jpg" alt="Drew Skiing">
+
+                        <img class="portrait" src="C:\Users\JDisko\lc101\html-me-something\Pictures\Reese skiing 2016.jpg" alt="Reese Skiing" >
 
                 </figure>
             </section>
-            <section>
+            <br>
+            <div>
                 <a name="4th of july"</a>
-                    <h2>4th of July</h2>
+                    <h2 >4th of July</h2>
                     <p>
                         4th of July 2016 parade in Ofallon, MO.
                     </p>
 
                     <figure>
-                        <img src="C:\Users\JDisko\lc101\html-me-something\Pictures\4th of July 2016.jpg" alt="4th of July" width ="180" height="140">
+                        <img class="landscape" src="C:\Users\JDisko\lc101\html-me-something\Pictures\4th of July 2016.jpg"  alt="4th of July">
                     </figure>
-                </section>
+                </div>
             </article>
         </main>
         <br>
         <br>
-        <footer>
+        <footer id="foot_style">
             <p>
                 Built as first html project for LC101
             </p>
