@@ -1,0 +1,47 @@
+.h1 {
+    text-align: center;
+    color: red;
+}
+
+header {
+    background-color: lightblue;
+    width: auto;
+    border: 25px solid blue;
+    padding: 25px;
+    margin: 0px;
+}
+
+nav ul li  {
+    text-align: center;
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    display: inline-block;
+
+}
+
+a:hover {
+    color: purple;
+    fone-size:
+}
+
+.article_bg {
+    background-color: skyblue ;
+    width: auto;
+    border: none;
+    padding: 0px;
+    margin: none;
+}
+
+#foot_style {
+    margin: none;
+}
+
+footer p {
+	text-align: center;
+    padding: 3em
+    display: inline-block;
+    background-color: lightblue;
+}
